@@ -1,0 +1,36 @@
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+.slider-box {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    gap: 10px
+}
+
+.button-box button {
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #6b6b7d;
+    cursor: pointer;
+}
