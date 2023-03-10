@@ -31,6 +31,11 @@
     height: 40px;
     border-radius: 8px;
     border: none;
-    background-color: #6b6b7d;
+    background-color: #6565d0;
     cursor: pointer;
+    color: white;
+}
+
+button:disabled {
+    background-color: #919191;
 }
